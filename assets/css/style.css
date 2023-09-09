@@ -1,0 +1,378 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel+Decorative&family=Lobster&family=Tilt+Neon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel+Decorative&family=Lobster&family=Marcellus+SC&family=Merienda:wght@300&family=Tilt+Neon&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.nav1{
+
+    height: 120px;
+   
+
+}
+.nav1 ul{    
+   gap: 2px;
+    display: flex; 
+    float: right;
+    margin-right: 70px;
+    margin-top: 25px;
+  
+   
+}
+.nav1 ul li{
+    /* background-color: gainsboro; */
+    text-decoration: none;
+    font-family: 'Tilt Neon', cursive;
+   color: white;
+   list-style: none;
+   padding: 12px;
+   
+  
+   
+}
+.nav1 a {text-decoration: none;}
+.nav1 ul li:hover{
+     /* color: #f5810c; */
+     background-color: grey;
+     border-radius: 20px;
+     color:yellow;
+     transition:ease-in all  0.3s;
+}
+/* logo  */
+.logotext{
+    font-family: 'Cinzel Decorative', cursive;
+    /* letter-spacing: 8px; */
+    display: inline-block;
+    text-decoration:overline underline;
+    color: rgb(245, 223, 28);
+    font-size: 25px;
+    margin-left: 55px;
+    margin-top: 25px;
+    padding: 10px;
+
+}
+.logotext:hover{
+    /* color: black; */
+    transition: 1s;
+    border-radius: 30px;
+}
+/* header  */
+.headerpart{
+    height: 224px;
+    width: 486px;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left: 55px;
+    margin-top: 72px;
+}
+.hello{
+    text-transform: capitalize;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+    color: rgb(245, 223, 28) ;
+}
+.int{
+    font-family: 'Marcellus SC', serif;
+font-size: 30px;
+color:white;
+}
+.wai{
+    
+    color: white;
+}
+.socialm ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 412px;
+    margin-top: 20px;
+}
+.socialm ul li{
+   
+    padding: 20px;
+    color:white;
+    list-style: none;
+    
+}
+.socialm a {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.socialm ul :nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   height:40px;
+   width: 40px;
+   border-radius: 50%;
+   background-color: white;
+}
+.socialm ul :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+ }
+ .socialm ul :nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+ }
+.socialm a:hover {
+    color:blue;
+    transform: translateY(-5px);
+} 
+.socialm ul :nth-child(2):hover {
+    color:rgb(13, 179, 245);
+    transform: translateY(-5px);
+} 
+.socialm ul :nth-child(3):hover {
+    color:rgb(194, 65, 119);
+    transform: translateY(-5px);
+} 
+/* about section   */
+.aboutb{
+    text-transform: capitalize;
+    
+    display: flex;
+    gap: 100px;
+    height: 600px;
+    width: 100vw;
+    
+}
+.aboutleft{
+    border: 16px solid rgb(245, 223, 28) ;
+    margin-left: 100px;
+    height: 500px;
+    width: 400px;
+    margin-top: 50px;
+
+}
+.aboutleft img{
+    height:100%;
+    width:100%;
+    
+}
+.aboutright{
+    margin-top: 55px;
+   margin-left: 10px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+}
+.aboutheading{
+    font-family: 'Marcellus SC', serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+.aboutmel{
+    color: rgb(170, 164, 164);
+    margin-left: 17px;
+    padding: 13px;
+}
+.info{
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    padding: 27px;
+    margin-left: 20px;
+    
+}
+.name{
+   
+    display:flex;
+    gap: 52px;
+}
+.name :nth-child(2){
+    color: rgb(170, 164, 164);
+}
+.no{
+    display:flex;
+    gap: 30px;
+}
+.no :nth-child(2){
+    color: rgb(170, 164, 164);
+}
+.add{
+    display:flex;
+    gap: 41px;
+}
+.add :nth-child(2){
+    color: rgb(170, 164, 164);
+}
+.mail{
+    display:flex;
+    gap: 55px;
+}
+.mail :nth-child(2){
+    color: rgb(170, 164, 164);
+}
+.buttoncv{
+    display: flex;
+    
+    height: 30px;
+    padding: 13px;
+    margin-right: 155px;
+}
+.btn{
+    display: flex;
+    color: white;
+    align-items: center;
+    background-color: rgb(245, 223, 28);
+    border-radius: 17px;
+    padding: 15px;
+}
+/* services section  */
+.servicescontainer{
+   margin-top:200px;
+    height: 460px;
+    width: 100vw;
+
+}
+.serhead{
+    font-family: 'Marcellus SC', serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+}
+.serinf{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(170, 164, 164);
+}
+.underline{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(245, 223, 28) ;
+}
+.sbox{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.box1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 270px;
+    border: 2px solid rgb(170, 164, 164);
+}
+.iconser{
+    display: flex;
+    justify-content: center;
+}
+.iconser a {
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 15px;
+    color: rgb(245, 223, 28);
+    display: inline-block;
+   
+}
+.title{
+    text-transform: capitalize;
+    font-family: 'Tilt Neon', cursive;
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: rgb(245, 223, 28);
+   
+}
+.allabout{
+    font-family: 'Caveat', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+/* projectsection  */
+.ptitle{
+    font-family: 'Marcellus SC', serif;
+    text-transform:capitalize ;
+    display: flex;
+    justify-content: center;
+    color: white;
+   text-decoration: underline;
+    font-size: 45px;
+}
+.projectbox{
+    display: flex;
+    
+}
+.prjecttile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    height: 340px;
+    width: 400px;
+    background-color:black;
+}
+.titp{
+    text-transform: capitalize;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 80%;
+}
+/* .prjecttile img{
+    height: 35%;
+    width: 50%;
+} */
+.pimg{
+    display: flex;
+    justify-content: center;
+
+}
+.pimg img{
+    height: 65%;
+    width: 80%;
+    border-radius: 20px;
+    position: relative;
+}
+.textt{
+   position:absolute;
+   color: white;
+   top: 50px;
+
+}
+
+.projectname{
+    color:white;
+}
+
