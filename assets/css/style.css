@@ -349,3 +349,6 @@ object-fit: cover;
 .boxesp a:hover{
     scale:1.3;
 }
+.footer{
+    font-size: 18px;
+}
