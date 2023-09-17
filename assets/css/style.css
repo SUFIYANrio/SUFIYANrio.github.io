@@ -12,6 +12,9 @@ body{
     padding: 0;
     background-color: black;
 }
+.main{
+    width: 100vw;
+}
 .nav1{
 
     height: 120px;
@@ -40,10 +43,8 @@ body{
 }
 .nav1 a {text-decoration: none;}
 .nav1 ul li:hover{
-     /* color: #f5810c; */
-     background-color: grey;
-     border-radius: 20px;
-     color:yellow;
+     text-decoration: underline;
+     color:rgb(236, 42, 42);
      transition:ease-in all  0.3s;
 }
 /* logo  */
@@ -52,7 +53,7 @@ body{
     /* letter-spacing: 8px; */
     display: inline-block;
     text-decoration:overline underline;
-    color: rgb(245, 223, 28);
+    color: rgb(236, 42, 42);
     font-size: 25px;
     margin-left: 55px;
     margin-top: 25px;
@@ -76,7 +77,7 @@ body{
     text-transform: capitalize;
     font-family: 'Tilt Neon', cursive;
     font-size: 20px;
-    color: rgb(245, 223, 28) ;
+    color: rgb(236, 42, 42) ;
 }
 .int{
     font-family: 'Marcellus SC', serif;
@@ -87,6 +88,10 @@ color:white;
     
     color: white;
 }
+.socialm{
+    margin-left: 50px;
+}
+
 .socialm ul{
     display: flex;
     align-items: center;
@@ -163,17 +168,19 @@ color:white;
     
 }
 .aboutleft{
-    border: 16px solid rgb(245, 223, 28) ;
+    border-top: 12px solid rgb(236, 42, 42);
+    border-right: 12px solid rgb(236, 42, 42);
+    border-bottom: 12px solid white;
+    border-left: 12px solid white;
     margin-left: 100px;
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 350px;
     margin-top: 50px;
 
 }
 .aboutleft img{
     height:100%;
     width:100%;
-    
 }
 .aboutright{
     margin-top: 55px;
@@ -246,133 +253,99 @@ color:white;
     display: flex;
     color: white;
     align-items: center;
-    background-color: rgb(245, 223, 28);
+    background-color: rgb(236, 42, 42);
     border-radius: 17px;
+    border: none;
     padding: 15px;
+    transition:all 1s ease-in-out ;
 }
-/* services section  */
-.servicescontainer{
-   margin-top:200px;
-    height: 460px;
-    width: 100vw;
-
+.btn:hover{
+    scale:1.2;
+    background-color: white;
+    color:rgb(236, 42, 42) ;
+    border-radius: 10px;
 }
-.serhead{
-    font-family: 'Marcellus SC', serif;
-    display: flex;
-    justify-content: center;
+/* fmkkbnksnbkl  */
+.footer{
     color: white;
-    font-size: 35px;
-}
-.serinf{
     display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    color: rgb(170, 164, 164);
-}
-.underline{
-    display: flex;
-    justify-content: center;
-    text-decoration: underline;
-    color: rgb(245, 223, 28) ;
-}
-.sbox{
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
 }
-.box1{
-    
+/* ABOUT PAGE CSS  */
+.Education{
+    font-size:28px;
+    text-decoration: underline;
+}
+.heart{
+    font-size: 25px;
+}
+.st1{
+    margin-top:40px;
     display: flex;
-    flex-direction: column;
+    justify-content:space-evenly;
+}
+.st2{
+    margin-top:40px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.st3{
+    margin-top:40px;
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.skillbox{
+    display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    width: 270px;
-    border: 2px solid rgb(170, 164, 164);
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    transition: all 1s ease-in-out;
 }
-.iconser{
-    display: flex;
-    justify-content: center;
-}
-.iconser a {
-    text-decoration: none;
-    font-size: 50px;
-    margin-right: 15px;
-    color: rgb(245, 223, 28);
-    display: inline-block;
+.skillbox img{
    
+    height: 60%;
+width: 60%;
+object-fit: cover;
 }
-.title{
-    text-transform: capitalize;
-    font-family: 'Tilt Neon', cursive;
-    text-decoration: none;
+.skillbox:hover{
+    scale:1.2;
+    border-radius: 8px;
+    background-color: rgb(149, 148, 148);
+}
+.service-info{
+    color: white;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    color: rgb(245, 223, 28);
    
 }
-.allabout{
-    font-family: 'Caveat', cursive;
+.ser{
     display: flex;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-/* projectsection  */
-.ptitle{
-    font-family: 'Marcellus SC', serif;
-    text-transform:capitalize ;
-    display: flex;
-    justify-content: center;
-    color: white;
-   text-decoration: underline;
-    font-size: 45px;
-}
-.projectbox{
-    display: flex;
-    
-}
-.prjecttile{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 40px;
-    height: 340px;
-    width: 400px;
-    background-color:black;
-}
-.titp{
-    text-transform: capitalize;
-    color: black;
-    font-size: 25px;
-    margin-bottom: 80%;
-}
-/* .prjecttile img{
-    height: 35%;
-    width: 50%;
-} */
-.pimg{
-    display: flex;
     justify-content: center;
-
+    margin-left:50px;
 }
-.pimg img{
-    height: 65%;
-    width: 80%;
-    border-radius: 20px;
-    position: relative;
+.boxesp{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;    
 }
-.textt{
-   position:absolute;
-   color: white;
-   top: 50px;
-
+.boxesp a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
 }
-
-.projectname{
-    color:white;
+.boxesp a:hover{
+    scale:1.3;
 }
-
