@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecomm/static/css/main.90dbece9.css",
-    "main.js": "/ecomm/static/js/main.619ec730.js",
+    "main.js": "/ecomm/static/js/main.d3318876.js",
     "static/js/787.633816a4.chunk.js": "/ecomm/static/js/787.633816a4.chunk.js",
     "static/media/banner1.png": "/ecomm/static/media/banner1.60a9f3263be900cf92fa.png",
     "static/media/banner2.png": "/ecomm/static/media/banner2.38adc28f271a6cdfe67d.png",
@@ -38,11 +38,11 @@
     "static/media/call2.svg": "/ecomm/static/media/call2.bc28825c0ec248f8ac005a82b1c3b83a.svg",
     "static/media/linee.svg": "/ecomm/static/media/linee.f3465287b9f7c5acfe29f898f64a852e.svg",
     "main.90dbece9.css.map": "/ecomm/static/css/main.90dbece9.css.map",
-    "main.619ec730.js.map": "/ecomm/static/js/main.619ec730.js.map",
+    "main.d3318876.js.map": "/ecomm/static/js/main.d3318876.js.map",
     "787.633816a4.chunk.js.map": "/ecomm/static/js/787.633816a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90dbece9.css",
-    "static/js/main.619ec730.js"
+    "static/js/main.d3318876.js"
   ]
 }
